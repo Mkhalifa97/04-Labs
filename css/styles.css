@@ -7,6 +7,20 @@ body {
   background: #fcc;
 }
 
+/*
+.menu:hover + nav  {
+  background-color: black;
+  font color: white;
+  line-height: 2em;
+  display: flex;
+}
+*/
+
+nav,hover {
+  justify-content: center;
+  background: #333;
+  display: none;
+}
 
 
 /* TABLET STYLES */
@@ -31,6 +45,10 @@ body {
   background: #555;
   text-decoration: none;
   transition: all 1.5s;
+}
+
+.menu {
+display: none;
 }
 
 }
